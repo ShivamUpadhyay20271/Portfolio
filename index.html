@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-------------Preloader--------------->
+    <!-- <div class="preloader">
+        <div class="loader"></div>
+    </div> -->
+
+    <!-------------------------HEADER----------------------------------->
+    <header class="header">
+        <i class="fa-regular fa-sun" id="mode"></i>
+        <div class="head-left">
+            <img src="images/shivampp.jpeg" alt="Profile Image" style="--i:1" class="header-image">
+            <h2 class="name" style="--i:2"><span>Shivam Upadhyay</span></h2>
+        </div>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar" id="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#skill" style="--i:2">Skill</a>        
+            <a href="#project" style="--i:3">Project</a>
+            <a href="#contact" style="--i:4">Contact</a>
+            
+        </nav>
+    </header>
+    <!-------------------------MAIN----------------------------------->
+    <div id="main">
+        <!--------------------------HOME------------------------------>
+        <section id="home">
+            <div id="text">
+                <h2>Hey there,</h2>
+                <h1>I'm <span>Shivam Upadhyay</span></h1>
+                <h4>
+                    I'm a passionate and curious computer science enthusiast with a strong appetite for learning and coding. As a fresher, I've already built a website, showcasing my dedication to mastering new skills in the world of programming. I'm excited to embark on a journey of continuous growth and innovation in the field of computer science.
+                </h4>
+                <div id="buttons">
+                    <button id="b2">
+                        <a href="https://drive.google.com/file/d/1zUePy09tVM6yvoBlUYocZvr5RqoQEJCC/view?usp=sharing" target="_blank">My Resume</a>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="home-img">
+                <img src="images/shivam3.jpeg" alt="">
+            </div>
+        </section>
+
+        <!----------------------SKILLS------------------------------>
+        <section id="skill">
+            <h1>MY <span>Skills</span></h1>
+            <!------------------------------------------------>
+            <div id="left">
+                <p>
+                    As an aspiring web developer, I'm eager to learn and embrace the world of digital creation. I'm familiar with the fundamentals of web development, including HTML, CSS, and JavaScript, and have even had the exciting opportunity to build my own website and create a simple game. My enthusiasm for coding and web development drives me to explore and grow, with a strong desire to make creative visions come to life in the digital realm.   
+                </p>
+            </div>
+            <!------------------------------------------------>
+            <div id="right">
+                <!-------------------TECH SKILLS------------------------->
+                <div class="box">
+                    <h2>Technical Skills</h2>
+                    <div class="technical-bars">
+                        <div class="skill-icon " id="skill-icon">
+                            <i class="fa-brands fa-html5" id="html"></i>
+                            <i class="fa-brands fa-css3-alt" id="css"></i>
+                            <i class="fa-brands fa-square-js" id="js"></i>
+                            <i class="fa-brands fa-php" id="php"></i>
+                            <i class='bx bxl-c-plus-plus' id="cpp"></i>
+                            <i class="fa-brands fa-python" id="python"></i>
+                        </div>
+                        
+                        <div class="bar skill-active" id="skill-html">
+                            <div class="info">
+                                <span>HTML</span>
+                            </div>
+                            <div class="progress-line html" >
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar" id="skill-css">
+                            <div class="info">
+                                <span>CSS</span>
+                            </div>
+                            <div class="progress-line css">
+                               <span></span>
+                           </div>
+                        </div>
+                        <div class="bar" id="skill-js">
+                            <div class="info">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="progress-line javascript">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar" id="skill-php">
+                            <div class="info">
+                                <span>PHP</span>
+                            </div>
+                            <div class="progress-line php">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar" id="skill-cpp">
+                            <div class="info">
+                                <span>C++</span>
+                            </div>
+                            <div class="progress-line cpp">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar" id="skill-python">
+                           <div class="info">
+                               <span>Python</span>
+                            </div>
+                            <div class="progress-line python">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------PRO SKILLS----------------------->
+                <div class="box">
+                    <h2>Professional Skills</h2>
+                    <div id="buttons">
+                        <button class="active" id="Creativity">Creativity</button>
+                        <button id="Teamwork">Teamwork</button>
+                        <button id="ProblemSolving">Problem Solving</button>
+                        <button id="Communication">Communication</button>
+                    </div>
+                    <div class="radial-bars">
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------PROJECT------------------------------->
+        <section id="project">
+            <h1><span>Projects</span></h1>
+            <div class="P-container">
+            <div class="P-content">
+                
+                <div class="project-box">
+                    <img src="images/NetflixClone.png" alt="">
+                    <div class="project-layer">
+                        <h2>NETFLIX CLONE</h2>
+                        <p>Designed a Netflix home page using HTML, CSS and JavaScript.</p>
+                        <a href="https://CodeHarshly.github.io/CloneNetflix" title="Netflix" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div> 
+                <div class="project-box">
+                    <img src="images/weather.png" alt="">
+                    <div class="project-layer">
+                        <h2>WEATHER</h2>
+                        <p>Designed a Weather forecast website and also added Temperature converter in website.</p>
+                        <a href="https://shivamupadhyay20271.github.io/Weather/" title="Weather" target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!----------------------CONTACT------------------------------>
+        <section class="end" id="contact" >
+            <div class="contact-me">
+                <h2>Get In <span>Touch</span></h2>
+                <h2 class="collab">Lets <span>Collab</span> and do a <span>Project</span></h2>
+                <p>Contact <span>Me</span></p>
+
+                <a href="mailto:shivamupadhyay20271@gmail.com" target="_blank"  class="btn">
+                    <img src="images/mail.png" alt="">
+                </a>
+
+                <a href="https://github.com/ShivamUpadhyay20271" target="_blank" class="btn">
+                    <img src="images/github.png" alt="">
+                </a>
+
+                <a href="https://www.linkedin.com/in/shivam-upadhyay-953008261/" target="_blank" class="btn">
+                    <img src="images/link.png" alt="">
+                </a>
+
+                <a href="https://www.instagram.com/pt.shivam_upadhyay5869/" target="_blank" class="btn">
+                    <img src="images/insta.png" alt="">
+                </a>
+            </div>
+            <div class="bottom-container">
+                <div>
+                    <p class="copyright">© 2023 Portfolio</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!------------------------Script--------------------->
+     <script src="script/Main.js"></script>
+     <script src="script/DarkMode.js"></script>
+</body>
+</html>
